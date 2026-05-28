@@ -7,3 +7,4 @@
 * [Скачать Pikabu Comment Sidebar ZIP](https://github.com/FlipMirror/PikabuCommentSidebar/raw/refs/heads/main/Pikabu%20Comment%20Sidebar/downloads/Pikabu%20Comment%20Sidebar.zip)
 2. Войти в раздел "Расширения" и "Управление расширениями" браузера. Передвинуть ползунок "Режим разработчика". Нажать "Загрузить распакованное расширение" и выбрать папку с необходимым расширением.   
 В ЯндексБраузере нужно вставить в поисковую строку browser://extensions/ и передвинуть ползунок "Режим разработчика" в активное состояние
+<img width="2729" height="1593" alt="333" src="https://github.com/user-attachments/assets/b8521594-50ca-42cf-86f7-f3a6f2c3eb8b" />
