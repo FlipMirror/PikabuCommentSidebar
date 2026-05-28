@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Pikabu Comments Sidebar",
+  "version": "1.0",
+  "description": "Фиксирует комментарии Pikabu справа как sidebar",
+
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+
+  "permissions": ["storage",
+    "tabs",
+    "scripting"
+],
+
+  "host_permissions": [
+    "https://pikabu.ru/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_title": "Toggle Pikabu Comments Sidebar"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://pikabu.ru/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
